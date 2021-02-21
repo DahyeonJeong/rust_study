@@ -17,4 +17,9 @@ fn main() {
 
     let array_one_value = [3; 4];
     println!("{}", array_one_value.len());
+
+    let array_error = [1, 2, 3];
+    let index = 3;
+    let element = array_error[index];
+    println!("element: {}", element);
 }
