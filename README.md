@@ -1,6 +1,6 @@
 # rust_study
 
-My Rust Study
+My Rust Study.
 
 # 🌱 How to execute?
 ``` terminal
