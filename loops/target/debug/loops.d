@@ -1,1 +1,1 @@
-/Users/jeongdahyeon/rust_study/loops/target/debug/loops: /Users/jeongdahyeon/rust_study/loops/src/main.rs
+C:\Users\PLAS\Desktop\rust_study\loops\target\debug\loops.exe: C:\Users\PLAS\Desktop\rust_study\loops\src\main.rs

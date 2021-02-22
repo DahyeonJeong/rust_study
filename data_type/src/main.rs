@@ -18,12 +18,8 @@ fn main() {
     let array_one_value = [3; 4];
     println!("{}", array_one_value.len());
 
-<<<<<<< HEAD
-    
-=======
     let array_error = [1, 2, 3];
     let index = 3;
     let element = array_error[index];
     println!("element: {}", element);
->>>>>>> 0fe2593adb9b380ec0dae18733c4bcfddc976798
 }
