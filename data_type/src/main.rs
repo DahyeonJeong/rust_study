@@ -17,4 +17,6 @@ fn main() {
 
     let array_one_value = [3; 4];
     println!("{}", array_one_value.len());
+
+    
 }
