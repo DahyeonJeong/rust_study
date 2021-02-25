@@ -1,4 +1,11 @@
 fn main() {
+    // return tuple
+    let s1 = String::from("hello");
+
+    let (s2, len) = calculate_length(s1);
+
+    println!("'{}'의 길이는 {}입니다.", s2, len);
+
     let s1 = gives_ownership();
     println!("{}", s1);
 
@@ -7,6 +14,12 @@ fn main() {
     let s3 = takes_and_gives_back(s2);
 
     println!("{}", s3);
+}
+
+fn calculate_length(s: String) -> (String, usize) {
+    let length = s.len();
+
+    (s, length)
 }
 
 fn gives_ownership() -> String {
