@@ -43,6 +43,9 @@ fn main() {
     err.clear(); // error
     println!("the first word is: {}", word);
     */
+
+    let s = "Hello, world!";
+    
 }
 
 fn first_word(s: &String) -> &str {
