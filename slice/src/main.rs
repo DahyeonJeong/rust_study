@@ -44,11 +44,20 @@ fn main() {
     println!("the first word is: {}", word);
     */
 
-    let s = "Hello, world!";
-    
+    let s_literal = "apple is red";
+
+    let first = first_word(&s_literal[..]);
+
+    println!("{}", first);
+
+    let a = [1, 2, 3, 4, 5];
+
+    let slice = &a[1..3];
+
+    println!("{}, {}", slice[0], slice[1]);
 }
 
-fn first_word(s: &String) -> &str {
+fn first_word(s: &str) -> &str {
     let bytes = s.as_bytes();
 
     for (i, &item) in bytes.iter().enumerate() {
