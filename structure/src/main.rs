@@ -16,6 +16,7 @@ fn main() {
         ..user1
     };
 
+    println!("{}: {}", user2.username, user2.email);
 }
 
 fn build_user(username: String, email: String) -> User {
